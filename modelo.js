@@ -28,25 +28,25 @@ function verificar(){
 
             if(idade >= 0 && idade <10){
             
-                img.setAttribute('src', '../imagens/garotinho.jpg');
+                img.setAttribute('src', './imagens/garotinho.jpg');
                 
                 resultado.innerHTML = `Detectamos um garoto de ${idade} anos.`;
 
             }else if (idade < 18){
                 
-                img.setAttribute('src', '../imagens/rapaz.jpg');
+                img.setAttribute('src', './imagens/rapaz.jpg');
                 
                 resultado.innerHTML = `Detectamos um rapaz de ${idade} anos.`;
 
             }else if (idade < 50){
                 
-                img.setAttribute('src', '../imagens/homem.jpg');
+                img.setAttribute('src', './imagens/homem.jpg');
                 
                 resultado.innerHTML = `Detectamos um homem de ${idade} anos.`;
 
             }else{
                 
-                img.setAttribute('src', '../imagens/senhor.jpg');
+                img.setAttribute('src', './imagens/senhor.jpg');
                 
                 resultado.innerHTML = `Detectamos um senhor de ${idade} anos.`;
 
@@ -58,25 +58,25 @@ function verificar(){
 
             if(idade >= 0 && idade <10){
                 
-                img.setAttribute('src', '../imagens/garotinha.jpg');
+                img.setAttribute('src', './imagens/garotinha.jpg');
                 
                 resultado.innerHTML = `Detectamos uma garota de ${idade} anos.`;
                 
             }else if (idade < 18){
                 
-                img.setAttribute('src', '../imagens/mocinha.jpg');
+                img.setAttribute('src', './imagens/mocinha.jpg');
                
                 resultado.innerHTML = `Detectamos uma mocinha de ${idade} anos.`;
 
             }else if (idade < 50){
                 
-                img.setAttribute('src', '../imagens/mulher.jpg');
+                img.setAttribute('src', './imagens/mulher.jpg');
 
                 resultado.innerHTML = `Detectamos uma mulher de ${idade} anos.`;
 
             }else{
                 
-                img.setAttribute('src', '../imagens/senhora.jpg');
+                img.setAttribute('src', './imagens/senhora.jpg');
 
                 resultado.innerHTML = `Detectamos uma senhora de ${idade} anos.`;
             }
